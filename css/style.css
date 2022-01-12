@@ -1,0 +1,19 @@
+  body {
+    font-family: Helvetica, sans-serif;
+    background-color: #060016;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, #0c002a 0%, black 50%, #0c002a 95%);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.info {
+  position: fixed;
+  top: 0;
+  color: white;
+  padding: 30px;
+}
+
+.country {
+  transition: fill .5s;
+}
